@@ -15,23 +15,41 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 */
-
+/*  */
+* {
+  box-sizing: border-box;
+}
 body {
-  background: #a9a9a9;
-  color: white;
+  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 
-.conteudo {
-  background: #000000;
-  color: rgb(255, 255, 255);
-}
 .logo {
   font-family: "Open Sans", sans-serif;
 }
 .menu_item {
   font-family: "Poppins", sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+  margin-bottom: 50px;
+}
+
+.header {
+  height: 60%;
+  
+  background: blue;
+}
+
+.conteudo {
+  margin: auto;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
 }
